@@ -26,13 +26,21 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Functors
+      FunctorsComplete
+      ApplicativesComplete
+      MonadsBasic
+      MonadsBasicComplete
+      ReaderWriter
+      ReaderWriterComplete
   other-modules:
       Paths_Monads
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+    , containers
+    , mtl
   default-language: Haskell2010
 
 executable run-monads
