@@ -110,7 +110,7 @@ acc1' :: String -> (String, Int)
 acc1' input = if length input `mod` 2 == 0
   then runWriter (acc2' input)
   else runWriter $ do
-    str1 <- acc3' input
+    str1 <- acc3' (tail input)
     str2 <- acc4' (take 1 input)
     return (str1 ++ str2)
 
