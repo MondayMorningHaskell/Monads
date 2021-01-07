@@ -1,6 +1,6 @@
 # Monads (and other Functional Structures)
 
-This repository is meant to accompany the [Monads Series](https://www.mmhaskell.com/monads) on the Monday Morning Haskell blog. Each article in the series has one of two corresponding modules in this repository. Any module with "Complete" in its name is meant mostly as a reference. You can read the code along with the article and see the finished product. The other modules (for example [Functors]() and [MonadsBasic]()) also follow the same code examples, but some parts are left `undefined` with a "TODO" marker, so you can write the code in for yourself!
+This repository is meant to accompany the [Monads Series](https://www.mmhaskell.com/monads) on the Monday Morning Haskell blog. Each article in the series has one of two corresponding modules in this repository. Any module with "Complete" in its name is meant mostly as a reference. You can read the code along with the article and see the finished product. The other modules (for example [Functors](https://github.com/MondayMorningHaskell/Monads/blob/master/src/Functors.hs) and [MonadsBasic](https://github.com/MondayMorningHaskell/Monads/blob/master/src/MonadsBasic.hs)) also follow the same code examples, but some parts are left `undefined` with a "TODO" marker, so you can write the code in for yourself!
 
 ## Repository Instructions
 
@@ -37,10 +37,10 @@ The `acc1'` function is undefined. So you can then modify it and use `:r` to rel
 
 ## Full Module List
 
-1. Part 1: [Functors](https://github.com/MondayMorningHaskell/Monads/blob/master/src/Functors.hs), [FunctorsComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/FunctorsComplete.hs)
-2. Part 2: [ApplicativesComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/ApplicativesComplete.hs) (All coding can be done in GHCI)
-3. Part 3: [MonadsBasic](https://github.com/MondayMorningHaskell/Monads/blob/master/src/MonadsBasic.hs), [MonadsBasicComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/MonadsBasicComplete.hs)
-4. Part 4: [ReaderWriter](https://github.com/MondayMorningHaskell/Monads/blob/master/src/ReaderWriter.hs), [ReaderWriterComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/ReaderWriterComplete.hs)
-5. Part 5: [State](https://github.com/MondayMorningHaskell/Monads/blob/master/src/State.hs), [StateComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/StateComplete.hs)
-6. Part 6: [Transformers](https://github.com/MondayMorningHaskell/Monads/blob/master/src/Transformers.hs), [TransformersComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/TransformersComplete.hs)
-7. Part 7: [LawsComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/LawsComplete.hs) (One small coding addition you can make)
+1. [Part 1](https://mmhaskell.com/monads/functors): [Functors](https://github.com/MondayMorningHaskell/Monads/blob/master/src/Functors.hs), [FunctorsComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/FunctorsComplete.hs)
+2. [Part 2](https://mmhaskell.com/monads/applicatives): [ApplicativesComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/ApplicativesComplete.hs) (All coding can be done in GHCI)
+3. [Part 3](https://mmhaskell.com/monads/tutorial): [MonadsBasic](https://github.com/MondayMorningHaskell/Monads/blob/master/src/MonadsBasic.hs), [MonadsBasicComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/MonadsBasicComplete.hs)
+4. [Part 4](https://mmhaskell.com/monads/reader-writer): [ReaderWriter](https://github.com/MondayMorningHaskell/Monads/blob/master/src/ReaderWriter.hs), [ReaderWriterComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/ReaderWriterComplete.hs)
+5. [Part 5](https://mmhaskell.com/monads/state): [State](https://github.com/MondayMorningHaskell/Monads/blob/master/src/State.hs), [StateComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/StateComplete.hs)
+6. [Part 6](https://mmhaskell.com/monads/transformers): [Transformers](https://github.com/MondayMorningHaskell/Monads/blob/master/src/Transformers.hs), [TransformersComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/TransformersComplete.hs)
+7. [Part 7](https://mmhaskell.com/monads/laws): [LawsComplete](https://github.com/MondayMorningHaskell/Monads/blob/master/src/LawsComplete.hs) (One small coding addition you can make)
